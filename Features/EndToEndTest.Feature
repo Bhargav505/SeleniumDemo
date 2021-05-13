@@ -45,6 +45,8 @@ Feature:EndtoEndTest
   Scenario: upload file in demoautomationtestsuit
   Given open the "http://practice.automationtesting.in/" of the application
   And click on the button "Shop" in the webpage
+  And Take Screenshot of the page
+  
     
     
     
