@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Annotation test(failed)">
+    <classes>
+      <class name="JavaPrograms.Dependent">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="SignIn"/>
+        </methods>
+      </class> <!-- JavaPrograms.Dependent -->
+    </classes>
+  </test> <!-- Annotation test(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

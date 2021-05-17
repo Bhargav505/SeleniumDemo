@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="classDemo" >
+<test name="TestngPrograms" parallel="methods">
+<classes>
+<class name="classDemo.ParallelDemo">
+</class>
+</classes>
+</test>
+</suite>
+
