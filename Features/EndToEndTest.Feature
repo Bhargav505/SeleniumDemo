@@ -3,7 +3,7 @@
 Feature:EndtoEndTest
 
   @Testcase1
-  Scenario: Verify the title of the Amazon fashion page
+  Scenario: Verify the title of the Amazon fashion page is displayed
     Given open the "https://www.amazon.in/" of the application
     And Take Screenshot of the page
     When click on button "Fashion" in amazon page
