@@ -12,10 +12,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
  
 	@RunWith(Cucumber.class)				
-	@CucumberOptions(features="C:\\Users\\Bhargav\\eclipse-workspace\\DataDrivenFramework\\Features\\EndToEndTest.Feature",
+	@CucumberOptions(features="C:\\Users\\Bhargav\\git\\repository3\\DataDrivenFramework\\Features\\Demo.Feature",
 	glue={"Stepdefintion"},plugin = { "com.cucumber.listener.ExtentCucumberFormatter:C:\\Users\\Bhargav\\eclipse-workspace\\DataDrivenFramework\\Reports/report.html"},
 			 monochrome = true,
-	tags= {"@Alltestcases"})		
+	tags= {"@tag1"})		
 	
 	public class TestRunner 				
 	{		

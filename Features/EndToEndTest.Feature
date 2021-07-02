@@ -3,9 +3,9 @@
 Feature:EndtoEndTest
 
   @Testcase1
-  Scenario: Verify the title of the Amazon fashion
+  Scenario: Verify the title of the Amazon fashion page
     Given open the "https://www.amazon.in/" of the application
-    #And Take Screenshot of the page
+    And Take Screenshot of the page
     When click on button "Fashion" in amazon page
     #And Take Screenshot of the page
     Then verify the title "Amazon Fashion" of the page
@@ -39,6 +39,7 @@ Feature:EndtoEndTest
   Scenario: buy the product from shop
   Given open the "http://practice.automationtesting.in/" of the application
   And click on the button "Shop" in the webpage
+  And Take Screenshot of the page
     
   
   @Testcase5
@@ -47,7 +48,27 @@ Feature:EndtoEndTest
   And click on the button "Shop" in the webpage
   And Take Screenshot of the page
   
-    
+   @Testcase6
+  Scenario: upload file in demoautomationtestsuit
+  Given open the "http://automationpractice.com/index.php" of the application
+  And click on the button "Shop" in the webpage
+  And Take Screenshot of the page
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     
     
     

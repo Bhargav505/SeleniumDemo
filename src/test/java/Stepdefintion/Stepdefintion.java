@@ -68,6 +68,31 @@ public void wait_for_the_page_to_load() throws Throwable {
 }
 
 	
+@Given("^Enter the \"([^\"]*)\" in the home page$")
+public void enter_the_in_the_home_page(String url) throws Throwable {
+     
+	login(url);
+	
+}
+@When("^Enter the username \"([^\"]*)\" in the textbox$")
+public void enter_the_username_in_the_textbox(String value) throws Throwable {
+     driver.findElement(By.xpath("//input[@name='username']")).sendKeys(value);
+	
+}
+@Then("^click on the next button$")
+public void click_on_the_next_button() throws Throwable {
+     
+	driver.findElement(By.xpath("//input[@name='signin']")).click();
+	Thread.sleep(7000);
+	
+}
+@Then("^click on the checkbox in the page$")
+public void click_on_the_checkbox_in_the_page() throws Throwable {
+	
+	driver.findElement(By.xpath("//span/div[@role='presentation'][@class='recaptcha-checkbox-border']")).click();
+	
+}
+
 
 
 
