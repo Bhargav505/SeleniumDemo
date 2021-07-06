@@ -2,7 +2,7 @@ package JavaPrograms;
 
 	class Vehicle{   //Parent class 
 		
-		void run() {
+		String void run() {
 			
 			System.out.println("Vehicle running");
 		}

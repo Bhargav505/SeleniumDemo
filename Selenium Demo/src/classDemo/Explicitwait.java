@@ -13,7 +13,7 @@ public class Explicitwait {
 		 WebDriver driver=new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.get("http://demo.automationtesting.in/Register.html");
-		 WebDriverWait wait = new WebDriverWait(driver,40);
+		 WebDriverWait wait = new WebDriverWait(driver,10);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='First']"))).sendKeys("hello");; 
 
 		 

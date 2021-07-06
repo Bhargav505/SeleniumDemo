@@ -12,10 +12,10 @@ public class GridDemo {
 		public static void main(String[] args) throws MalformedURLException {
 			 DesiredCapabilities cap=new DesiredCapabilities();
 			 cap.setPlatform(Platform.ANY);
-			 cap.setBrowserName("firefox");
-	         d=new RemoteWebDriver(new URL("http://192.168.1.22:5566/wd/hub"),cap);
-			// RemoteWebDriver d=new RemoteWebDriver(new 
-	              //URL("http://localhost:4444/wd/hub"),cap);
+			 cap.setBrowserName("internet explorer");
+	         d=new RemoteWebDriver(new URL("http://192.168.1.22:5588/wd/hub"),cap);
+			 //RemoteWebDriver d=new RemoteWebDriver(new 
+	             // URL("http://localhost:5566/wd/hub"),cap);
 			 //WebDriver d1=new RemoteWebDriver();
 	       d.get("http://gmail.com");
 	       System.out.println(d.getTitle());

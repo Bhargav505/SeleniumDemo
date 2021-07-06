@@ -23,7 +23,7 @@ public class Browsers {
 		break;
 		
 		case "IE":
-		System.setProperty("webdriver.ie.driver","C:\\Users\\Bhargav\\Downloads\\IEDriverServer_x64_3.150.1\\IEDriverServer.exe");
+		//System.setProperty("webdriver.ie.driver","C:\\Users\\Bhargav\\Downloads\\IEDriverServer_x64_3.150.1\\IEDriverServer.exe");
 		WebDriver driver2=new InternetExplorerDriver();
 		driver2.get("http://demo.automationtesting.in/");
 		break;

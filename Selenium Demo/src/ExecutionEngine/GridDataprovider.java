@@ -20,13 +20,13 @@ public class GridDataprovider {
 			cap.setBrowserName("firefox");
 			 cap.setPlatform(Platform.ANY); 
 			 driver=new RemoteWebDriver(new
-					 URL("http://192.168.1.22:5577/wd/hub"), cap);
+					 URL("http://192.168.1.22:5577/wd/hub"), cap); // Node of firefox
 			 break;
 		case "chrome":
 			cap.setBrowserName("chrome");
 			 cap.setPlatform(Platform.ANY); 
 			 driver=new RemoteWebDriver(new
-					 URL("http://192.168.1.22:5566/wd/hub"), cap);
+					 URL("http://192.168.1.22:5555/wd/hub"), cap);
 			 break;
 		case "IE":
 			cap.setBrowserName("internet explorer");

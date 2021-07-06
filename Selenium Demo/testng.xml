@@ -2,7 +2,9 @@
 <suite name="classDemo" >
 <test name="TestngPrograms" parallel="methods">
 <classes>
-<class name="classDemo.ParallelDemo">
+<class name="classDemo.NewTest">
+</class>
+<class name="classDemo.SeleniumTestng">
 </class>
 </classes>
 </test>

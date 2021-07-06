@@ -5,7 +5,7 @@
     <classes>
       <class name="ExecutionEngine.GridDataprovider">
         <methods>
-          <include name="m1" invocation-numbers="1 0 2"/>
+          <include name="m1" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- ExecutionEngine.GridDataprovider -->
     </classes>
