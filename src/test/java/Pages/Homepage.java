@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Homepage {
+public class Homepage { //updated
 
-	WebDriver driver;
+	WebDriver driverr;
 	
 	 //Constructor that will be automatically called as soon as the object of the class is created
 	 public Homepage(WebDriver driver) {

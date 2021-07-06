@@ -12,7 +12,7 @@ import cucumber.api.java.en.When;
 
 public class Stepdefintion extends Functionlibrary {
 	
-	public static WebDriver driver1;
+	public static WebDriver driver;
 	 
 	
 	@Test
@@ -20,8 +20,12 @@ public class Stepdefintion extends Functionlibrary {
 	public void open_the_url(String url) throws Throwable {
 			login(url);
 					
+		
 }
-			
+	
+	public void Register(WebDriver driver) {
+		 this.driver=driver;
+	}
 @Given("^click on button \"([^\"]*)\" in amazon page$")
 	public void click_on_mobiles_in_amazon_page(String button) throws Throwable {
 		button(button);
@@ -94,6 +98,26 @@ public void click_on_the_checkbox_in_the_page() throws Throwable {
 }
 
 
+
+@Given("^open the facebook url \"([^\"]*)\"$")
+public void open_the_facebook_url(String url) throws Throwable {
+	login(url);
+	 
+     
+}
+
+@Given("^wait for sometime for the page to load$")
+public void wait_for_sometime_for_the_page_to_load() throws Throwable {
+	Thread.sleep(3000);
+    
+}
+
+@Then("^get the title of the webpage$")
+public void get_the_title_of_the_webpage() throws Throwable {
+	String str=driver.getTitle();
+	System.out.println("Title of the webpage is"+str);
+   
+}
 
 
 
